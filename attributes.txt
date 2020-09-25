@@ -1,0 +1,197 @@
+attr;boolean;deprecated;tags;doc;url
+accept;0;0;form,input;List of types the server accepts, typically a file type.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept
+accept-charset;0;0;form;List of supported charsets.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+accesskey;0;0;global;Keyboard shortcut to activate or add focus to the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey
+action;0;0;form;The URI of a program that processes the information submitted via the form.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+align;0;0;applet,caption,col,colgroup,hr,iframe,img,table,tbody,td,tfoot ,th,thead,tr;Specifies the horizontal alignment of the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+allow;0;0;iframe;Specifies a feature-policy for the iframe.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+alt;0;0;applet,area,img,input;Alternative text in case an image can't be displayed.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+aria-*;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+async;1;0;script;Executes the script asynchronously.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+autocapitalize;0;0;global;Sets whether input is automatically capitalized when entered by user;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize
+autocomplete;1;0;form,input,select,textarea;Indicates whether controls in this form can by default have their values automatically completed by the browser.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete
+autofocus;1;0;button,input,keygen,select,textarea;The element should be automatically focused after the page loaded.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+autoplay;1;0;audio,video;The audio or video should play as soon as possible.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+background;0;1;body,table,td,th;Specifies the URL of an image file. Note: Although browsers and email clients may still support this attribute, it is obsolete. Use CSS background-image instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+bgcolor;0;0;body,col,colgroup,marquee,table,tbody,tfoot,td,th,tr;Background color of the element. Note: This is a legacy attribute. Please use the CSS background-color property instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+border;0;0;img,object,table;The border width. Note: This is a legacy attribute. Please use the CSS border property instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+buffered;0;0;audio,video;Contains the time range of already buffered media.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+capture;0;0;input;From the HTML Media Capture. The definition of 'media capture' in that specification.spec, specifies a new file can be captured.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture
+challenge;0;1;keygen;A challenge string that is submitted along with the public key.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+charset;0;0;meta,script;Declares the character encoding of the page or script.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+checked;1;0;command,input;Indicates whether the element should be checked on page load.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+cite;0;0;blockquote,del,ins,q;Contains a URI which points to the source of the quote or change.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+class;0;0;global;Often used with CSS to style elements with common properties.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
+code;0;1;applet;Specifies the URL of the applet's class file to be loaded and executed.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+codebase;0;1;applet;This attribute gives the absolute or relative URL of the directory where applets' .class files referenced by the code attribute are stored.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+color;0;0;basefont,font,hr;This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format. Note: This is a legacy attribute. Please use the CSS color property instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+cols;0;0;textarea;Defines the number of columns in a textarea.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+colspan;0;0;td,th;The colspan attribute defines the number of columns a cell should span.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+content;0;0;meta;A value associated with http-equiv or name depending on the context.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+contenteditable;1;0;global;Indicates whether the element's content is editable.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable
+contextmenu;0;0;global;Defines the ID of a <menu> element which will serve as the element's context menu.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+controls;1;0;audio,video;Indicates whether the browser should show playback controls to the user.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+coords;0;0;area;A set of values specifying the coordinates of the hot-spot region.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+crossorigin;0;0;audio,img,link,script,video;How the element handles cross-origin requests;https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes
+csp;0;0;iframe;Specifies the Content Security Policy that an embedded document must agree to enforce upon itself.;https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp
+data;0;0;object;Specifies the URL of the resource.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+data-*;0;0;global;Lets you attach custom attributes to an HTML element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*
+datetime;0;0;del,ins,time;Indicates the date and time associated with the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+decoding;0;0;img;Indicates the preferred method to decode the image.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+default;1;0;track;Indicates that the track should be enabled unless the user's preferences indicate something different.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+defer;1;0;script;Indicates that the script should be executed after the page has been parsed.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+dir;0;0;global;Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl (Right-To-Left);https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir
+dirname;0;0;input,textarea;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+disabled;1;0;button,command,fieldset,input,keygen,optgroup,option,select,textarea;Indicates whether the user can interact with the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled
+download;0;0;a,area;Indicates that the hyperlink is to be used for downloading a resource.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+draggable;0;0;global;Defines whether the element can be dragged.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+dropzone;0;0;global;Indicates that the element accepts the dropping of content onto it.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+enctype;0;0;form;Defines the content type of the form date when the method is POST.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+enterkeyhint;0;0;textarea,contenteditable;The enterkeyhint specifies what action label (or icon) to present for the enter key on virtual keyboards. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute).;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+for;0;0;label,output;Describes elements which belongs to this one.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+form;0;0;button,fieldset,input,keygen,label,meter,object,output,progress,select,textarea;Indicates the form that is the owner of the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+formaction;0;0;input,button;Indicates the action of the element, overriding the action defined in the <form>.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+formenctype;0;0;button,input;If the button/input is a submit button (type="submit"), this attribute sets the encoding type to use during form submission. If this attribute is specified, it overrides the enctype attribute of the button's form owner.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+formmethod;0;0;button,input;If the button/input is a submit button (type="submit"), this attribute sets the submission method to use during form submission (GET, POST, etc.). If this attribute is specified, it overrides the method attribute of the button's form owner.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+formnovalidate;1;0;button,input;If the button/input is a submit button (type="submit"), this boolean attribute specifies that the form is not to be validated when it is submitted. If this attribute is specified, it overrides the novalidate attribute of the button's form owner.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+formtarget;0;0;button,input;If the button/input is a submit button (type="submit"), this attribute specifies the browsing context (for example, tab, window, or inline frame) in which to display the response that is received after submitting the form. If this attribute is specified, it overrides the target attribute of the button's form owner.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+headers;0;0;td,th;IDs of the <th> elements which applies to this element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+height;0;0;canvas,embed,iframe,img,input,object,video;Specifies the height of elements listed here. For all other elements, use the CSS height property. Note: In some instances, such as <div>, this is a legacy attribute, in which case the CSS height property should be used instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+hidden;1;0;global;Prevents rendering of given element, while keeping child elements, e.g. script elements, active.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+high;0;0;meter;Indicates the lower bound of the upper range.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+href;0;0;a,area,base,link;The URL of a linked resource.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+hreflang;0;0;a,area,link;Specifies the language of the linked resource.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+http-equiv;0;0;meta;Defines a pragma directive.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+icon;0;1;command;Specifies a picture which represents the command.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+id;0;0;global;Often used with CSS to style a specific element. The value of this attribute must be unique.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
+importance;0;0;iframe,img,link,script;Indicates the relative fetch priority for the resource.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+integrity;0;0;link,script;Specifies a Subresource Integrity value that allows browsers to verify what they fetch.;https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+intrinsicsize;0;0;img;This attribute tells the browser to ignore the actual intrinsic size of the image and pretend it’s the size specified in the attribute.;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-intrinsicsize
+inputmode;0;0;textarea,contenteditable;Provides a hint as to the type of data that might be entered by the user while editing the element or its contents. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute).;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode
+ismap;1;0;img;Indicates that the image is part of a server-side image map.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+itemprop;0;0;global;The itemprop global attribute is used to add properties to an item. Every HTML element can have an itemprop attribute specified, and an itemprop consists of a name-value pair. Each name-value pair is called a property, and a group of one or more properties forms an item. Property values are either a string or a URL and can be associated with a very wide range of elements including <audio>, <embed>, <iframe>, <img>, <link>, <object>, <source> , <track>, and <video>.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop
+keytype;0;1;keygen;Specifies the type of key generated.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+kind;0;0;track;Specifies the kind of text track.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+label;0;0;optgroup,option,track;Specifies a user-readable title of the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+lang;0;0;global;Defines the language used in the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
+language;0;0;script;Defines the script language used in the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+loading;0;0;img,iframe;Indicates if the element should be loaded lazily (loading="lazy") or loaded immediately (loading="eager"). WIP: WHATWG PR #3752;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+list;0;0;input;Identifies a list of pre-defined options to suggest to the user.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+loop;1;0;audio,bgsound,marquee,video;Indicates whether the media should start playing from the start when it's finished.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+low;0;0;meter;Indicates the upper bound of the lower range.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+manifest;0;1;html;Specifies the URL of the document's cache manifest. Note: This attribute is obsolete, use <link rel="manifest"> instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+max;0;0;input,meter,progress;Indicates the maximum value allowed.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max
+maxlength;0;0;input,textarea;Defines the maximum number of characters allowed in the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength
+minlength;0;0;input,textarea;Defines the minimum number of characters allowed in the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength
+media;0;0;a,area,link,source,style;Specifies a hint of the media for which the linked resource was designed.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+method;0;0;form;Defines which HTTP method to use when submitting the form. Can be GET (default) or POST.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+min;0;0;input,meter;Indicates the minimum value allowed.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min
+multiple;1;0;input,select;Indicates whether multiple values can be entered in an input of the type email or file.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple
+muted;1;0;audio,video;Indicates whether the audio will be initially silenced on page load.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+name;0;0;button,form,fieldset,iframe,input,keygen,object,output,select,textarea,map,meta,param;Name of the element. For example used by the server to identify the fields in form submits.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+novalidate;1;0;form;This attribute indicates that the form shouldn't be validated when submitted.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+open;1;0;details;Indicates whether the details will be shown on page load.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+optimum;0;0;meter;Indicates the optimal numeric value.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+pattern;0;0;input;Defines a regular expression which the element's value will be validated against.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern
+ping;0;0;a,area;The ping attribute specifies a space-separated list of URLs to be notified if a user follows the hyperlink.;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
+placeholder;0;0;input,textarea;Provides a hint to the user of what can be entered in the field.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+poster;0;0;video;A URL indicating a poster frame to show until the user plays or seeks.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+preload;0;0;audio,video;Indicates whether the whole resource, parts of it or nothing should be preloaded.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+radiogroup;0;1;command;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+readonly;1;0;input,textarea;Indicates whether the element can be edited.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly
+referrerpolicy;0;0;a,area,iframe,img,link,script;Specifies which referrer is sent when fetching the resource.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+rel;0;0;a,area,link;Specifies the relationship of the target object to the link object.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel
+required;1;0;input,select,textarea;Indicates whether this element is required to fill out or not.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required
+reversed;1;0;ol;Indicates whether the list should be displayed in a descending order instead of a ascending.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+rows;0;0;textarea;Defines the number of rows in a text area.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+rowspan;0;0;td,th;Defines the number of rows a table cell should span over.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+sandbox;0;0;iframe;Stops a document loaded in an iframe from using certain features (such as submitting forms or opening new windows).;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox
+scope;0;0;th;Defines the cells that the header test (defined in the th element) relates to.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+scoped;1;0;style;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+selected;1;0;option;Defines a value which will be selected on page load.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+shape;0;0;a,area;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+size;0;0;input,select;Defines the width of the element (in pixels). If the element's type attribute is text or password then it's the number of characters.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size
+sizes;0;0;link,img,source;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+slot;0;0;global;Assigns a slot in a shadow DOM shadow tree to an element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+span;0;0;col,colgroup;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+spellcheck;1;0;global;Indicates whether spell checking is allowed for the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+src;0;0;audio,embed,iframe,img,input,script,source,track,video;The URL of the embeddable content.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+srcdoc;0;0;iframe;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+srclang;0;0;track;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+srcset;0;0;img,source;One or more responsive image candidates.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+start;0;0;ol;Defines the first number if other than 1.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+step;0;0;input;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step
+style;0;0;global;Defines CSS styles which will override styles previously set.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style
+summary;0;0;table;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+tabindex;0;0;global;Overrides the browser's default tab order and follows the one specified instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+target;0;0;a,area,base,form;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+title;0;0;global;Text to be displayed in a tooltip when hovering over the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
+translate;1;0;global;Specify whether an element’s attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+type;0;0;button,input,command,embed,object,script,source,style,menu;Defines the type of the element.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+usemap;0;0;img,input,object;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+value;0;0;button,data,input,li,meter,option,progress,param;Defines a default value which will be displayed in the element on page load.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+width;0;0;canvas,embed,iframe,img,input,object,video;For the elements listed here, this establishes the element's width. Note: For all other instances, such as <div>, this is a legacy attribute, in which case the CSS width property should be used instead.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+wrap;0;0;textarea;Indicates whether the text should be wrapped.;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onabort;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onautocomplete;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onautocompleteerror;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onblur;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oncancel;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oncanplay;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oncanplaythrough;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onchange;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onclick;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onclose;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oncontextmenu;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oncuechange;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondblclick;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondrag;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondragend;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondragenter;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondragexit;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondragleave;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondragover;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondragstart;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondrop;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ondurationchange;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onemptied;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onended;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onerror;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onfocus;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oninput;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+oninvalid;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onkeydown;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onkeypress;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onkeyup;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onload;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onloadeddata;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onloadedmetadata;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onloadstart;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmousedown;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmouseenter;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmouseleave;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmousemove;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmouseout;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmouseover;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmouseup;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onmousewheel;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onpause;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onplay;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onplaying;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onprogress;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onratechange;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onreset;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onresize;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onscroll;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onseeked;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onseeking;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onselect;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onshow;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onsort;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onstalled;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onsubmit;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onsuspend;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ontimeupdate;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+ontoggle;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onvolumechange;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+onwaiting;0;0;global;;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes

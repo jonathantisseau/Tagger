@@ -2,25 +2,50 @@
 
 declare(strict_types=1);
 
-namespace jonathantisseau\Tagger;
+namespace Tagger;
+
+require "./vendor/autoload.php";
 
 use PHPUnit\Framework\TestCase;
 
 class TaggerTest extends TestCase
 {
-    /**
-     * @var Tagger
-     */
-    protected $tagger;
+	/**
+	 * Undocumented variable
+	 *
+	 * @var ContainerTag
+	 */
+    protected $tag;
 
     protected function setUp() : void
     {
-        $this->tagger = new Tagger;
+        $this->tag = new ContainerTag('html');
     }
 
     public function testIsInstanceOfTagger() : void
     {
-        $actual = $this->tagger;
-        $this->assertInstanceOf(Tagger::class, $actual);
+        // $actual = $this->tag;
+		// $this->assertInstanceOf(Tag::class, $actual);
+
+		$this->tag
+			->body()
+				->form()
+					->end()
+				->ul()
+					->li()
+						->end()
+					->li()
+						// ->set_class('sdcflkj')
+						->span()
+							->text('')
+							->end()
+						->end()
+					->li()
+						->text('test')
+						->br()
+						->text('test')
+						->hr()
+							->set_color('red')
+							;
     }
 }
